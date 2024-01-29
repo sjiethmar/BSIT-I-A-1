@@ -1,17 +1,22 @@
 public class Main REMETICADO_ACTIVITY_I {
 
 puclic static void main(Sting[]args){
-    int X = 5
-    int Y = 10 
-    int T = 15
+    int x = 5
+    int y = 10 
+    int t = 15
 
-    System.out.println ("The Sum is " +(X+Y+T));
-    System.out.println ("The Difference is "+(X-Y-T));
-    System.out.println ("The Product is "+(X*Y*T));
-    System.out.println ("The Quotient is"(X/Y?T));
+    int sum = x+y+t;
+    int difference = x-y-t;
+    int product  = x*y*t;
+    int qoutient = x/y/t;
+    
+    System.out.println ("The Sum is " +(x+y+t));
+    System.out.println ("The Difference is "+(x-y-t));
+    System.out.println ("The Product is "+(x*y*t));
+    System.out.println ("The Quotient is "(x/y/t));
 
 
 }
-}
+
     
 
