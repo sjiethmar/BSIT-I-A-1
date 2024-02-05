@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class ORTEGA_ACTIVITY_II {
     public static void main(String []args){
         Scanner sc = new Scanner(System.in);
-        int variable;
+        int value;
         System.out.print("Enter the first value: ");
         int fnum = sc.nextInt();
         System.out.print("Enter the second value: ");
