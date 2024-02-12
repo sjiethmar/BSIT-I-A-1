@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+ public class VILLARMIA_ACTIVITY_IV{
+
+    public static void main (String []args){
+
+        Scanner scanner = new Scanner (System.in);
+        System.out.print("Red/Green/Black");
+        String box = sc.nextLine();
+ 
+    switch(box){
+        case "Red"
+        System.out.println("1");
+        break;
+        System.out.println("2");
+        break;
+        System.out.println("3");
+        break;
+    }
+
+  }
+
+ }
+
+ 
