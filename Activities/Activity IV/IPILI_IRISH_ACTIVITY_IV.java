@@ -5,7 +5,8 @@ public class IPILI_IRISH_ACTIVITY_IV{
     System.out.print("Enter color:");
     String robot = sc.nextLine();
 
-    Switch(robot){
+
+    switch(robot) {
         case "RED":
         System.out.println("Number 1");
         break;
@@ -14,6 +15,7 @@ public class IPILI_IRISH_ACTIVITY_IV{
         break;
         case "BLACK":
         System.out.println("Number 3");
+        break;
         default:
         System.out.print("Nothing");
     }
@@ -21,5 +23,3 @@ public class IPILI_IRISH_ACTIVITY_IV{
 
     }
     
-}
-}
