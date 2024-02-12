@@ -1,29 +1,23 @@
 import java.util.Scanner;
 
-public class REMETICADO_ACTIVITY_II{
+public class REMETICADO_JOWARD_Activity_IV{
+    public static void main (String []args){
 
-    public static void main (String[]args ){
         Scanner keyboard = new Scanner(System.in);
-
-        System.out.print("Red no.1");
-        System.out.print("Orange no.2");
-        System.out.print("Green no.2");
+        System.out.print("Enter color: ");
         String box = keyboard.nextLine();
 
-        switch (box){
-
+        switch(box){
             case "Red":
-            System.out.println(x:"1");
-            break;
-            case "Orange":
-            System.out.println(x:"2");
+            System.out.println("1");
             break;
             case "Green":
-            System.out.println("3");
+            System.out.println("2");
             break;
+            case "Black":
+            System.out.println("3");
+          
         }
 
-        
-        
     }
 }
