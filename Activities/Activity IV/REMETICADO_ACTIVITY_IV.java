@@ -6,9 +6,9 @@ public class REMETICADO_ACTIVITY_II{
         Scanner keyboard = new Scanner(System.in);
 
         System.out.print("Red no.1");
-        System.out,print("Orange no.2");
-        System.out,print("Green no.2");
-        String box = keyboard.nextLine()
+        System.out.print("Orange no.2");
+        System.out.print("Green no.2");
+        String box = keyboard.nextLine();
 
         switch (box){
 
