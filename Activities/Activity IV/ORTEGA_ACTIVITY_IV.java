@@ -17,12 +17,7 @@ public class ORTEGA_ACTIVITY_IV {
                 System.out.println("3");
             break;
         }
-
-
-        
-
     }
-
 }
     
 
