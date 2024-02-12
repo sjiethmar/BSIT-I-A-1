@@ -4,7 +4,6 @@ public class ORTEGA_ACTIVITY_IV {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter color: ");
         String color = sc.nextLine();
-        int red = 1, green = 2, black = 3;
 
 
         switch(color) {
