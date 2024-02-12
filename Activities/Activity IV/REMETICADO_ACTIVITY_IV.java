@@ -19,7 +19,7 @@ public class REMETICADO_ACTIVITY_II{
             System.out.println(x:"2");
             break;
             case "Green":
-            System.out.println("3");
+            System.out.println(x:"3");
             break;
         }
 
