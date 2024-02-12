@@ -7,7 +7,7 @@ public class BUHIA_ACTIVITY_IV {
         System.out.println("Red/Green/Black: ");
         String Box = sc.nextLine();
 
-        switch(box){
+        switch(robot){
            case "red":
                 System.out.println("1");
                 break;
