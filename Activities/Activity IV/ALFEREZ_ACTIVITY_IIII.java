@@ -1,5 +1,5 @@
-mport java.util.Scanner;
-    public class TARAN_ACTIVITY_IIII{
+import java.util.Scanner;
+    public class ALFEREZ_ACTIVITY_IIII{
         public static void main(String []args){
             Scanner sc = new Scanner(System.in);
             System.out.print( "Enter color ");
