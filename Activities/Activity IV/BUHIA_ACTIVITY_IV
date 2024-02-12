@@ -5,7 +5,7 @@ public class BUHIA_ACTIVITY_IV {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Red/Green/Black: ");
-        String Box = sc.nextLine();
+        String robot = sc.nextLine();
 
         switch(robot){
            case "red":
