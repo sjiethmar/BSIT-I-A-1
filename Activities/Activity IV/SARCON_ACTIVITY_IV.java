@@ -1,6 +1,6 @@
 import java.util.Scanner;
-public class MyClass { 
-    
+public class SARCON_ACTIVITY_IV.java { 
+
     public static void main(String args[]) {
     Scanner sc = new Scanner(System.in);
     System.out.print("Red/Green/Black : ");
@@ -16,6 +16,8 @@ public class MyClass {
         case "Black":
             System.out.println(x: 3);
             break;
+            default:
+            System.out.println("Invalid choice. Please enter Red, Green, or Black");
         }
     }
 }
