@@ -9,13 +9,13 @@ public class ORTEGA_ACTIVITY_IV {
 
         switch(color) {
             case "RED":
-            System.out.println("1");
+                System.out.println("1");
             break;
             case "GREEN":
-            System.out.println("2");
+                System.out.println("2");
             break;
             case "BLACK":
-            System.out.println("3");
+                System.out.println("3");
             break;
         }
 
