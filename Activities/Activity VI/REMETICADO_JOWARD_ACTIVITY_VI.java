@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class REMETICADO_ACTIVITY_VI {
+public class REMETICADO_JOWARD_ACTIVITY_VI {
      public static void main (String []args){
 
         int time;
