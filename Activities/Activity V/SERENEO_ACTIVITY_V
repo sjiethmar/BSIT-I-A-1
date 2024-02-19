@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class SERENEO_ACTIVITY_V {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+
+        System.out.println("Enter your age: ");
+        int age = sc.nextInt();
+    
+        if (age>=0 && age <=11){
+            System.out.println("MO TUTUY PA");
+        } else if (age<=12 && age <=18){
+            System.out.println("BATA PAKAY KA OI");
+        } else if (age<=19 && age <=64){
+            System.out.println("AYAY LEGAL AGE NAMAN"); 
+        } else if (age<=65 && age <=100){
+            System.out.println("TIGUWANGA AH");
+        } else if(age<=101 && age <=150){
+            System.out.println("KAMATYUNON NA");
+        }
+    }
+  }
