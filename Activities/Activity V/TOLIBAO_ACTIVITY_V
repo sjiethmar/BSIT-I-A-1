@@ -1,18 +1,18 @@
 import java.util.Scanner;
 
-public class TOLIBAO_ACTIVITY_VI {
+public class TOLIBAO_ACTIVITY_V {
+    public static void main(String[] args){
+    Scanner sc= new Scanner(System.in);
 
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter number of time:");
-        int num = sc.nextInt();
+    System.out.println("Enter your age: ");
+    int age = sc.nextInt();
 
-       
-        while(num >=0){ 
-            System.out.println(num);
-            num--;
-        }
-    
-
+    if (age>=0 && age <=11){
+        System.out.println("Child");
+    } else if (age<=12 && age <=17){
+        System.out.println("Teen");
+    } else if (age<=18 && age <=64){
+        System.out.println("Adult"); 
     }
 }
+}  
