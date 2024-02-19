@@ -1,20 +1,29 @@
 import java.util.Scanner;
 
-public class REMETICADO_ACTIVITY_V{
-    public static void main(String[]args){
+public class REMETICADO_JOWARD_Activity_V{
+    public static void main (String []args){
 
-        Scanner input = new Scanner(System.in);
-        int age;
+        int age;  
+        Scanner keyboard = new Scanner(System.in);
+        System.out.print("Enter Age: ");
 
-        System.out.println("Enter age: ");
-        age = input.nextInt();
+        age = keyboard.nextInt();
 
-        if (age>= 0 && age<= 11){
+        if(age >= 0 && age > 12){
             System.out.println("Child");
-        }else if (age>= 12 && age<= 17){
+        
+         }else if (age >= 12 && age > 18)
             System.out.println("Teen");
-        }else if (age>= 18 && age<= 64){
+            
+            else if(age >= 18 && age > 65)
             System.out.println("Adult");
-        }
+
+        
+        
+  
+
+      
+        
+
     }
 }
