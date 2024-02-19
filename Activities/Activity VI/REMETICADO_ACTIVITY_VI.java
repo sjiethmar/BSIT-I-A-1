@@ -1,17 +1,31 @@
 import java.util.Scanner;
 
-public class REMETICADO_ACTIVITY_VI{
-    public static void main(String[]args){
-        Scanner input = new Scanner(System.in);
+public class REMETICADO_ACTIVITY_VI {
+     public static void main (String []args){
 
-        System.out.println("Please enter the number of seconds");
-        int time = input.nextInt();
+        int time;
+        Scanner input = new Scanner (System.in);
 
-        while (time >= 0 ){
-            System.out.println(time);
-            time--;
+        System.out.print("Enter time: ");
+        time = input.nextInt();
+        while (time >= 0 );
+        System.out.println(time);
+        time--;
+        
+            
         }
-       
     }
-}
+        
+
+      
+
+        
+        
+  
+
+      
+        
+
+    
+
 
