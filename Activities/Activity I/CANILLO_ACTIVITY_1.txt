@@ -1,29 +1,17 @@
-public class Op1{
-public static void main(String []args){
-int a = 12, b = 5;
-//int sum;
-   //sum = a + b;
-//System.out.println("Sum = "+sum);
-System.out.println("Sum = "+(a+b));
+public class CANILLO_ACTIVITY_I{
 
-//int diff;
-   //diff = a - b;
-//System.out.println("Difference = "+diff);
-System.out.println("Difference ="+(a-b));
+    public static void main(String[]args){
 
-//int product;
-   //product = a * b;
-  //System.out.println("Product = "+ prod);
-  System.out.println("Product = "+(a*b));
+        int a = 10;
+        int b = 5;
+        int c = 4;
 
-       //int qoutient;
-           //qoutient = a / b;
-        //System.out.println("Qoutient = "+qout);
-        System.out.println("Qoutient = "+(a/b));
+        int sum = a + b + c;
+        int diff = a - b - c;
+        int prod = a * b * c;
+        int quot = a / b / c;
 
-        //int modulo;
-            //modulo = a % b;
-        //System.out.println("Modulo = "+modulo);
-        System.out.println("Modulo = "+(a%b));
-}
-}
+                System.out.println("Sum: " + sum);
+                System.out.println("Difference: " + diff);
+                System.out.println("Product: " + prod);
+                System.out.println("Quotient: " + quot);
